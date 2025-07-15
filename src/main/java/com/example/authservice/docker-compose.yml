@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   auth-service:
-    build: .
+    build: ../../../../../../target/generated-test-sources/test-annotations
     container_name: my-auth-service
     ports:
       - "8080:8080"
